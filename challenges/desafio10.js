@@ -3,8 +3,8 @@ db.produtos.find(
     { $elemMatch: 
       { $and: [
         { tipo: { $eq: "proteínas" } },
-        { quantidade: { $gte: 30 } },
-        { quantidade: { $lte: 40 } },
+        { percentual: { $gte: 30 } },
+        { percentual: { $lte: 40 } },
         ],
       },
     }, 
