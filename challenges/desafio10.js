@@ -1,4 +1,4 @@
-db.produtos.findMany(
+db.produtos.find(
   { valoresNutricionais: 
     { $elemMatch: 
       { $and: [
@@ -9,5 +9,5 @@ db.produtos.findMany(
       },
     }, 
   },
-  { nome: 1 },
+  { _id: 0, nome: 1 },
 );
