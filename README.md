@@ -1,46 +1,16 @@
-# My Awesome Project
+# Trybe MongoDB Commerce
 
 # Contexto
-Este projeto trata-se de uma ferramenta de back-office para armazenar e buscar dados de erros que ocorreram com clientes.
+Este projeto trata-se de um teste criado pela trybe para saber a habilidade de seus alunos em relação ao MOngoDB.
 
-## Técnologias usadas
-
-Front-end:
-> Desenvolvido usando: React, Redux, CSS3, HTML5, Redis, ES6
-
-Back-end:
-> Desenvolvido usando: NodeJS, ExpressJS, MongoDB, MYSQL, ES6
-
+### os arquivos aos quais eu sou responsavel:
+* os presentes na pasta `challenges`
 
 ## Instalando Dependências
 
-> Backend
 ```bash
-cd api/ 
-npm install
-``` 
-> Frontend
-```bash
-cd src/
 npm install
 ``` 
 ## Executando aplicação
 
-* Para rodar o back-end:
-
-  ```
-  cd api/ && npm start
-  ```
-* Para rodar o front-end:
-
-  ```
-    cd src/ && npm start
-  ```
-
-## Executando Testes
-
-* Para rodar todos os testes:
-
-  ```
-    npm test
-  ```
+* esta aplicação nao tem uma execução
